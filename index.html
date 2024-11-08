@@ -28,39 +28,27 @@
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <img src="./assets/bg.png" alt="">
+        <section class="hero">
+            <!-- <img src="./assets/bg.png" alt=""> -->
             <h1 class="hero-text">
                 Everything is fine, you book with FeWo-direkt
             </h1>
             <div class="inputs">
                 <div class="location">
-                    <a href="#">
-                        <img src="./assets/Icons/location.svg" alt="location icon">
-                        <p>Where should we go?</p>
-                    </a>
+                    <img src="./assets/Icons/location.svg" alt="loaction-icon" class="icons">
+                    <input type="text" name="location" id="location" placeholder="Where should we go?">    
                 </div>
-                <div class="date">
-                    <a href="#">
-                        <img src="./assets/Icons/calendar.svg" alt="calendar icon">
-                        <div class="location-texts">
-                            <span>Data</span>
-                            <p>Nov. 16 - Nov. 30 </p>
-                        </div>
-                    </a>
+                <div class="data">
+                    <img src="./assets/Icons/calendar.svg" alt="calendar icon" class="icons">
+                    <input type="date" name="date" id="date" placeholder="Data">    
                 </div>
                 <div class="guests">
-                    <a href="#">
-                        <img src="./assets/Icons/user.svg" alt="guests icon">
-                        <div class="guest-text">
-                            <span>guests</span>
-                            <p>2 travels</p>
-                        </div>
-                    </a>
+                    <img src="./assets/Icons/user.svg" alt="guests icons" class="icons">
+                    <input type="text" name="guests" id="guests" placeholder="guests">    
                 </div>
-                <button>Seek</button>
+                <button type="button">Seek</button>
             </div>
-        </div>
+        </section>
     </main>
 </body>
 </html>

@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
+  min-width: 100vw;
   font-size: 14px;
   overflow-x: hidden;
 }
@@ -80,9 +80,10 @@ main {
   justify-content: center;
   width: 100%;
   align-items: center;
-  height: 85vh;
+  height: 100vh;
   background-image: linear-gradient(#2323234c, #0000002b), url("/assets/bg.png");
   background-repeat: no-repeat;
+  background-position: 50%;
   background-size: cover;
 }
 
@@ -102,7 +103,7 @@ main {
   height: 72px;
   width: 90%;
   padding: 0px 16px;
-  margin-top: 32px;
+  margin-top: 40px;
   border-radius: 8px;
 }
 .inputs img {
@@ -142,21 +143,6 @@ input {
     color: #ffffff;
     font-weight: bold;
     font-size: 16px;
-    margin-left: 10px;
-}
-
-.icon-box {
-    background-color: #FFFFFF;
-    background-position: 0% 0%;
-    color: #191E3B;
-    height: 48px;
-    width: 48px;
-    position: relative;
-    top: 0px;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
-    display: inline-flex;
-    align-items: center; /* Center icon vertically */
-    justify-content: center; /* Center icon horizontally */
+    margin-left: 8px;
+    cursor: pointer;
 }

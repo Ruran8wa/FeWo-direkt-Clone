@@ -144,3 +144,19 @@ input {
     font-size: 16px;
     margin-left: 10px;
 }
+
+.icon-box {
+    background-color: #FFFFFF;
+    background-position: 0% 0%;
+    color: #191E3B;
+    height: 48px;
+    width: 48px;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: inline-flex;
+    align-items: center; /* Center icon vertically */
+    justify-content: center; /* Center icon horizontally */
+}
